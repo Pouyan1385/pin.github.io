@@ -1,0 +1,9 @@
+body{margin:0;font-family:sans-serif;background:#111;color:#fff}
+.page{padding:20px;min-height:100vh}
+.hidden{display:none}
+input{width:100%;padding:12px;border-radius:12px}
+.artist,.song{padding:12px;margin:8px 0;background:#222;border-radius:12px;cursor:pointer}
+#bg{position:fixed;inset:0;background-size:cover;filter:blur(50px);opacity:.5}
+.player{position:relative;z-index:1;text-align:center;padding-top:50px}
+#cover{width:260px;height:260px;border-radius:24px;object-fit:cover}
+#progress{width:90%}
